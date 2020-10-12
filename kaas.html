@@ -1,0 +1,62 @@
+<html>
+	<body>
+		<script>
+			
+			var kaaskleur;
+			var gaten;
+			var prijs;
+			var dichtbaarheid
+			var schimmel
+			var korst
+
+
+			kaaskleur = prompt("Is de kaas geel?");
+
+			if (kaaskleur === 'ja'){
+			gaten = prompt("Zitten er gaten in?")
+			}
+
+			if (gaten === 'ja'){
+			prijs = gaten = prompt("Is de kaas belachelijk duur?")
+			}
+			if (prijs === 'ja'){
+			document.write("Emmenthaler")	
+			}
+			else if (prijs === 'nee'){
+			document.write("Leerdammer")
+			}
+			else if (gaten === 'nee') {
+			dichtbaarheid = prompt("Is de kaas hard als steen?")
+			}
+			if(dichtbaarheid === 'ja'){
+			document.write("Pamigiano Reggiano")
+			}
+			else if(dichtbaarheid === 'nee'){
+			document.write("Goudse kaas")	
+			}
+
+			else if (kaaskleur === 'nee'){
+			schimmel = prompt("Heeft de kaas blauwe schimmel?")
+			}
+			if(schimmel === 'ja'){
+			korst = prompt("Heeft de kaas een korst?")	
+			}
+			if(korst === 'ja') {
+			document.write("Bleu de Rochbaron")	
+			}
+			else if (korst === 'nee') { 
+			document.write("Foumme d'Ambert")
+			}
+			else if (schimmel === 'nee'){
+			korstzonderschimmel = prompt("Heeft de kaas een korst")
+			}
+			if(korstzonderschimmel === ja){
+			document.write("Cambert")	
+			}
+			else if (korstzonderschimmel === 'nee') {
+			document.write("Mozzarella")	
+			}
+			
+		</script>
+	</body>
+</html> 
